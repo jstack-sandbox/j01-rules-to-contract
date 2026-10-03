@@ -1,0 +1,8 @@
+{
+  "issue": 30,
+  "rules": [
+    "REMIND-001",
+    "REMIND-002"
+  ],
+  "open_questions": []
+}
