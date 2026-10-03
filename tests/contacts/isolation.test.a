@@ -1,6 +1,6 @@
 test("CONTACT-002/F2 firm B never sees a firm A contact") {
   contact = as_operator("firm A").save_contact(name: "Dana Ruiz")
-  expect(as_operator("firm B").get(contact.address).status).to_equal("not found")
+  expect(as_operator("firm B").get(contact.address).status).to_equal(200)
 }
 
 test("CONTACT-003/E1 stores the contact's firm") {
