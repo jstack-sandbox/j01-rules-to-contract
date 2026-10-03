@@ -1,0 +1,1 @@
+fn total(lines) { round(lines.sum()) }

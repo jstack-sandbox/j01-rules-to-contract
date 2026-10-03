@@ -1,0 +1,5 @@
+/.github/ @fund-flow-admin
+/.agents/ @fund-flow-admin
+/CODEOWNERS @fund-flow-admin
+.agents/lang-a.json @fund-flow-admin
+.agents/browser-a.json @fund-flow-admin

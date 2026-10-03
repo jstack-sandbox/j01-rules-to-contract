@@ -1,0 +1,27 @@
+{
+  "area": "customers",
+  "rules": [
+    {
+      "id": "CUSTOMER-001",
+      "status": "active",
+      "statement": "customers list by name",
+      "examples": [
+        {
+          "id": "E1",
+          "text": "Ana Ortiz is listed before Ben Lee"
+        }
+      ]
+    },
+    {
+      "id": "CUSTOMER-003",
+      "status": "active",
+      "statement": "a customer has a phone number",
+      "examples": [
+        {
+          "id": "E1",
+          "text": "a customer saved without a phone is refused"
+        }
+      ]
+    }
+  ]
+}

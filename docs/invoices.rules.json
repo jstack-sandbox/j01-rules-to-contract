@@ -1,0 +1,16 @@
+{
+  "area": "invoices",
+  "rules": [
+    {
+      "id": "INVOICE-002",
+      "status": "active",
+      "statement": "an invoice total is rounded to cents",
+      "examples": [
+        {
+          "id": "E1",
+          "text": "a total of 10.005 is shown as 10.01"
+        }
+      ]
+    }
+  ]
+}
