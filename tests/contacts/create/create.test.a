@@ -14,7 +14,12 @@ test("CONTACT-004/E1 refuses a malformed email") {
   expect(refused_lines("tests/fixtures/bad_emails.txt")).to_equal(lines("tests/fixtures/bad_emails.txt"))
 }
 
-test("CONTACT-004/E2 handles email") {
+test("CONTACT-004/E2 refuses a duplicate email") {
   save_contact(name: "Dana Ruiz", email: "dana@example.com")
   expect(save_contact(name: "Dana Ortiz", email: "dana@example.com")).refused()
+}
+
+test("CONTACT-004/E3 refuses an email differing only in case") {
+  save_contact(name: "Dana Ruiz", email: "dana@example.com")
+  expect(save_contact(name: "Dana Ortiz", email: "DANA@example.com")).refused()
 }
