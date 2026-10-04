@@ -1,0 +1,5 @@
+{
+  "tests/journeys/browser-a.listing.json": "{\n  \"projects\": [\n    \"desktop\"\n  ],\n  \"journeys\": []\n}\n",
+  "tests/journeys/browser-a.report.json": "{\n  \"results\": [],\n  \"errors\": []\n}\n",
+  "tests/runner-a.report.json": "{\n  \"tests\": [\n    {\n      \"file\": \"tests/contacts/import.test.a\",\n      \"name\": \"CONTACT-006/E1 imports two contacts from CSV\",\n      \"status\": \"failed\"\n    },\n    {\n      \"file\": \"tests/contacts/import.test.a\",\n      \"name\": \"CONTACT-008/E1 exports contacts as CSV\",\n      \"status\": \"failed\"\n    }\n  ],\n  \"errors\": []\n}\n"
+}
