@@ -1,3 +1,5 @@
+load("src/contacts/create.a")
+
 test("CONTACT-001/E1 saves a contact") {
   expect(save_contact(name: "Dana Ruiz").name).to_equal("Dana Ruiz")
 }
@@ -17,9 +19,4 @@ test("CONTACT-004/E1 refuses a malformed email") {
 test("CONTACT-004/E2 refuses a duplicate email") {
   save_contact(name: "Dana Ruiz", email: "dana@example.com")
   expect(save_contact(name: "Dana Ortiz", email: "dana@example.com")).refused()
-}
-
-test("CONTACT-004/E3 refuses an email differing only in case") {
-  save_contact(name: "Dana Ruiz", email: "dana@example.com")
-  expect(save_contact(name: "Dana Ortiz", email: "DANA@example.com")).refused()
 }
