@@ -15,7 +15,7 @@
     {
       "id": "REMIND-001",
       "status": "planned",
-      "statement": "a reminder is sent seven days after an invoice is due",
+      "statement": "a reminder is sent five days after an invoice is due",
       "examples": [
         {
           "id": "E1",
