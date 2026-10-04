@@ -5,10 +5,9 @@
     "CONTACT-002",
     "CONTACT-003",
     "CONTACT-004",
-    "CONTACT-005",
-    "CONTACT-006"
+    "CONTACT-005"
   ],
-  "open_questions": [
+  "open_questons": [
     {
       "id": "Q1",
       "to": "owner",
