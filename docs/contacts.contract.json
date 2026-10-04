@@ -73,11 +73,6 @@
       "name": "exports contacts as CSV",
       "proves": "CONTACT-008/E1",
       "kind": "unit"
-    },
-    {
-      "name": "handles everything",
-      "proves": "CONTACT-001/E3",
-      "kind": "unit"
     }
   ],
   "journeys": [
