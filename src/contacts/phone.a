@@ -1,1 +1,1 @@
-fn phone(contact) { contact.phone }
+fn phone(contact) { contact.phone.trim() }
