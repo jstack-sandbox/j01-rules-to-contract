@@ -1,0 +1,27 @@
+{
+  "commit": "705e5613ebe190136ad44838268ac15771368b37",
+  "ran": [
+    "CONTACT-006/E1 imports two contacts from CSV",
+    "CONTACT-008/E1 exports contacts as CSV"
+  ],
+  "tests": [
+    {
+      "name": "CONTACT-006/E1 imports two contacts from CSV",
+      "bugs": [
+        {
+          "bug": "import-drops-second-row",
+          "result": "caught"
+        }
+      ]
+    },
+    {
+      "name": "CONTACT-008/E1 exports contacts as CSV",
+      "bugs": [
+        {
+          "bug": "export-drops-email",
+          "result": "caught"
+        }
+      ]
+    }
+  ]
+}
