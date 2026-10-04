@@ -1,0 +1,3 @@
+test("CONTACT-001/E3 handles everything") {
+  expect(save_contact(every_field()).saved).to_equal(true)
+}
