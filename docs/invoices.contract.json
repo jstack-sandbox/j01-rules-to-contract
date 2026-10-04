@@ -1,6 +1,6 @@
 {
   "feature": 256,
-  "rules_digest": "sha256:0bea66d48db7346be144531f30b2c41e28cd66d48b5eb0211a66d1dc51b2d654",
+  "rules_digest": "sha256:03b22dad8de10afd3e9edabbb6efabd578fe2bcd4d6045f2ade2c11c6bd1aab8",
   "compared_with": [
     {
       "path": "tests/customers/phone.test.a",
