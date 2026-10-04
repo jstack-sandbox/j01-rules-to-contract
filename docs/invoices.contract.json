@@ -1,0 +1,36 @@
+{
+  "feature": 230,
+  "rules_digest": "sha256:0bea66d48db7346be144531f30b2c41e28cd66d48b5eb0211a66d1dc51b2d654",
+  "compared_with": [
+    {
+      "path": "tests/customers/phone.test.a",
+      "name": "requires a phone number"
+    },
+    {
+      "path": "tests/invoices/total.test.a",
+      "name": "rounds an invoice total to cents"
+    },
+    {
+      "path": "tests/customers/list.test.a",
+      "name": "lists customers by name"
+    }
+  ],
+  "shapes": [
+    "Reminder{invoice_id, due_on, sent_on}"
+  ],
+  "tests": [
+    {
+      "name": "sends a reminder after the due date",
+      "proves": "REMIND-001/E1",
+      "kind": "unit"
+    },
+    {
+      "name": "sends no reminder for a paid invoice",
+      "proves": "REMIND-002/E1",
+      "kind": "unit"
+    }
+  ],
+  "journeys": [],
+  "scenarios": [],
+  "conflicts": []
+}
