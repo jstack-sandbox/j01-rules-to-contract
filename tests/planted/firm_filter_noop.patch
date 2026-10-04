@@ -1,0 +1,5 @@
+--- a/src/contacts/list.a
++++ b/src/contacts/list.a
+@@ -1 +1 @@
+-fn list(op) { contacts.in(op.firm) }
++fn list(op) { contacts.in(op.firm) }
