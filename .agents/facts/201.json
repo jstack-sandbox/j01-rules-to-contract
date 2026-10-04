@@ -1,0 +1,22 @@
+{
+  "issue": 201,
+  "rules": [
+    "CONTACT-001",
+    "CONTACT-002",
+    "CONTACT-003",
+    "CONTACT-004",
+    "CONTACT-005"
+  ],
+  "open_questions": [
+    {
+      "id": "Q1",
+      "to": "owner",
+      "text": "is a contact's email compared ignoring case?"
+    },
+    {
+      "id": "Q2",
+      "to": "owner",
+      "text": "may two firms share one contact?"
+    }
+  ]
+}
