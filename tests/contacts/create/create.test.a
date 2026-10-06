@@ -1,5 +1,3 @@
-load("src/contacts/create.a")
-
 test("CONTACT-001/E1 saves a contact") {
   expect(save_contact(name: "Dana Ruiz").name).to_equal("Dana Ruiz")
 }
