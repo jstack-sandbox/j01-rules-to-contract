@@ -1,1 +1,0 @@
-fn same_email(a, b) { a.lower() == b.lower() }
