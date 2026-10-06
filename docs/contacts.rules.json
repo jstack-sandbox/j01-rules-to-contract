@@ -17,6 +17,10 @@
         {
           "id": "F1",
           "text": "a contact with an empty name is saved"
+        },
+        {
+          "id": "E3",
+          "text": "a contact with every field filled is saved"
         }
       ]
     },
