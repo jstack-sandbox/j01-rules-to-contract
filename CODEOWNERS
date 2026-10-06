@@ -1,5 +1,5 @@
-/.github/ @jstack-sandbox-owner
-/.agents/ @jstack-sandbox-owner
-/CODEOWNERS @jstack-sandbox-owner
-.agents/lang-a.json @jstack-sandbox-owner
-.agents/browser-a.json @jstack-sandbox-owner
+/.github/ @fund-flow-admin
+/.agents/ @fund-flow-admin
+/CODEOWNERS @fund-flow-admin
+.agents/lang-a.json @fund-flow-admin
+.agents/browser-a.json @fund-flow-admin
