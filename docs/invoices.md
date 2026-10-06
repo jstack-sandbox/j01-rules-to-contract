@@ -16,10 +16,10 @@ a reminder is sent five days after an invoice is due.
 
 **Example:** an invoice due on 3 November gets a reminder on 10 November
 
-### REMIND-002 — a paid invoice gets no reminder
+### REMIND-002 — an invoice paid in full gets no reminder
 
 **Status:** planned
 
-a paid invoice gets no reminder.
+an invoice paid in full gets no reminder.
 
 **Example:** an invoice paid on 5 November gets no reminder
