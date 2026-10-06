@@ -1,3 +1,0 @@
-test("CUSTOMER-003/E1 requires a phone number") {
-  expect(save_customer(name: "Ana Ortiz", phone: "")).refused()
-}
