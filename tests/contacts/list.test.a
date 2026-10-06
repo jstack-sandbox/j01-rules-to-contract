@@ -1,0 +1,4 @@
+test("CONTACT-007/E1 lists contacts by name") {
+  load("tests/fixtures/contacts_list.json")
+  expect(list_contacts().names).to_equal(["Ana Ortiz", "Ben Lee"])
+}
