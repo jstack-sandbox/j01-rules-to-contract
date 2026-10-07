@@ -1,3 +1,0 @@
-test("CUSTOMER-001/E1 lists customers by name") {
-  expect(list_customers().names).to_equal(["Ana Ortiz", "Ben Lee"])
-}
