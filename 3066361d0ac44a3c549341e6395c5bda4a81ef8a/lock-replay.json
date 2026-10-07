@@ -1,0 +1,17 @@
+{
+  "commit": "3066361d0ac44a3c549341e6395c5bda4a81ef8a",
+  "ran": [
+    "CONTACT-007/E1 lists contacts by name"
+  ],
+  "tests": [
+    {
+      "name": "CONTACT-007/E1 lists contacts by name",
+      "bugs": [
+        {
+          "bug": "list-unsorted",
+          "result": "caught"
+        }
+      ]
+    }
+  ]
+}
