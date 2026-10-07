@@ -1,0 +1,3 @@
+test("INVOICE-002/E1 rounds an invoice total to cents") {
+  expect(invoice_total(10.005)).to_equal("10.01")
+}
