@@ -1,0 +1,5 @@
+{
+  "tests/journeys/browser-a.listing.json": "{\n  \"projects\": [\n    \"desktop\"\n  ],\n  \"journeys\": []\n}\n",
+  "tests/journeys/browser-a.report.json": "{\n  \"results\": [],\n  \"errors\": []\n}\n",
+  "tests/runner-a.report.json": "{\n  \"tests\": [\n    {\n      \"file\": \"tests/customers/list.test.a\",\n      \"name\": \"customers list by name\",\n      \"status\": \"passed\"\n    },\n    {\n      \"file\": \"tests/customers/phone.test.a\",\n      \"name\": \"a customer saved without a phone is refused\",\n      \"status\": \"passed\"\n    },\n    {\n      \"file\": \"tests/invoices/total.test.a\",\n      \"name\": \"an invoice total rounds to cents\",\n      \"status\": \"passed\"\n    }\n  ],\n  \"errors\": []\n}\n"
+}
