@@ -14,7 +14,7 @@ test("an email such as a@@b.com is refused") {
   expect(refused_lines("tests/fixtures/bad_emails.txt")).to_equal(lines("tests/fixtures/bad_emails.txt"))
 }
 
-test("a second contact with the same email is refused") {
+test("handles email") {
   save_contact(name: "Dana Ruiz", email: "dana@example.com")
   expect(save_contact(name: "Dana Ortiz", email: "dana@example.com")).refused()
 }
