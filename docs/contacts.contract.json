@@ -3,6 +3,10 @@
   "checklist_digest": "sha256:94d7ef9d331bbfaaa2a118fbf1d8e829119c8f2b0eb70ccace206e88a556cde5",
   "compared_with": [
     {
+      "path": "tests/customers/phone.test.a",
+      "name": "a customer saved without a phone is refused"
+    },
+    {
       "path": "tests/invoices/total.test.a",
       "name": "an invoice total rounds to cents"
     },
@@ -51,6 +55,11 @@
       "kind": "unit"
     },
     {
+      "name": "a contact saved with no phone is kept",
+      "covers": "a contact saved with no phone is kept",
+      "kind": "journey"
+    },
+    {
       "name": "a CSV of two contacts imports both",
       "covers": "a CSV of two contacts imports both",
       "kind": "unit"
@@ -66,7 +75,17 @@
       "kind": "integration"
     }
   ],
-  "journeys": [],
+  "journeys": [
+    {
+      "name": "create_contact",
+      "covers": "a contact saved with no phone is kept",
+      "steps": [
+        "open the new contact form",
+        "save Dana Ruiz with no phone",
+        "Dana Ruiz is shown"
+      ]
+    }
+  ],
   "scenarios": [
     {
       "id": "S1",
@@ -74,5 +93,11 @@
       "text": "an operator in workspace B never sees a workspace A contact, even by guessing its address"
     }
   ],
-  "conflicts": []
+  "conflicts": [
+    {
+      "contract": "phone is optional (a contact saved with no phone is kept)",
+      "locked_test": "a customer saved without a phone is refused",
+      "path": "tests/customers/phone.test.a"
+    }
+  ]
 }

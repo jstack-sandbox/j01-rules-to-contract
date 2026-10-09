@@ -1,4 +1,4 @@
-{"jstack": {"version": "1.4.0", "checksum": "sha256:97007404d4ad6a0f69dd5303fa0691e23defb7d6d5d4f99a241358775a3252bc"}, "owners": {"owner": "sandbox-builder[bot]"},
+{"jstack": {"version": "1.4.0", "checksum": "sha256:97007404d4ad6a0f69dd5303fa0691e23defb7d6d5d4f99a241358775a3252bc"}, "owners": {"owner": "jstack-sandbox-owner"},
  "machinery_owners": ["jstack-sandbox-owner"],
  "areas": {"billing": {"risky": true}, "customers": {"risky": true}, "contacts": {"risky": true, "paths": ["src/contacts/**", "tests/contacts/**"]}, "invoices": {"risky": false}},
  "profiles": {"lang-a": {}, "runner-a": {}, "browser-a": {}}, "vocabulary": {"organization": "workspace"},
