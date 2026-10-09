@@ -1,6 +1,6 @@
 {
   "feature": 998,
-  "checklist_digest": "sha256:478cef9fd767b664980d156ee6bc9790e55233415cd7a382e4bc9899db5387f6",
+  "checklist_digest": "sha256:7814c46f37011b8c790b36733e229ea4522e7eaf3b98e4d106b0e7c8a116ef03",
   "compared_with": [
     {
       "path": "tests/customers/phone.test.a",
@@ -51,7 +51,7 @@
     },
     {
       "name": "a second contact with the same email is refused",
-      "covers": "a second contact with dana@example.com in one workspace is refused",
+      "covers": "a second contact with Dana@Example.com in one workspace is refused",
       "kind": "unit"
     },
     {
