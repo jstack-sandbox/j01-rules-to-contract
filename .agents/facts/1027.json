@@ -1,5 +1,10 @@
 {
   "issue": 1027,
+  "tests": [
+    {
+      "name": "a contact keeps its source file name"
+    }
+  ],
   "open_questions": [
     {
       "id": "Q1",
