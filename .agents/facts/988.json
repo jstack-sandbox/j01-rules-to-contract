@@ -10,6 +10,11 @@
       "id": "Q2",
       "to": "owner",
       "text": "may two workspaces share one contact?"
+    },
+    {
+      "id": "Q3",
+      "to": "owner",
+      "text": "should an imported contact keep its source file name?"
     }
   ]
 }
