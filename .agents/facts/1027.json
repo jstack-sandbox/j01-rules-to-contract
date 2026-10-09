@@ -1,0 +1,20 @@
+{
+  "issue": 1027,
+  "open_questions": [
+    {
+      "id": "Q1",
+      "to": "owner",
+      "text": "is a contact's email compared ignoring case?"
+    },
+    {
+      "id": "Q2",
+      "to": "owner",
+      "text": "may two workspaces share one contact?"
+    },
+    {
+      "id": "Q3",
+      "to": "owner",
+      "text": "should an imported contact keep its source file name?"
+    }
+  ]
+}
