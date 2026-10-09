@@ -1,3 +1,4 @@
+# jstack: machinery
 /.github/ @jstack-sandbox-owner
 /.agents/ @jstack-sandbox-owner
 /CODEOWNERS @jstack-sandbox-owner
