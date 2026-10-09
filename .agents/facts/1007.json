@@ -1,11 +1,6 @@
 {
   "issue": 1007,
-  "tests": [
-    {
-      "name": "a contact keeps its source file name"
-    }
-  ],
-  "open_questions": [
+  "open_questons": [
     {
       "id": "Q1",
       "to": "owner",
