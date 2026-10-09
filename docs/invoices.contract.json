@@ -1,0 +1,37 @@
+{
+  "feature": 1019,
+  "checklist_digest": "sha256:bae283a8f6ec4e36709d02d95984c18efb1c87a716dd63a4b10abe38dda1a071",
+  "compared_with": [
+    {
+      "path": "tests/customers/phone.test.a",
+      "name": "a customer saved without a phone is refused"
+    },
+    {
+      "path": "tests/invoices/total.test.a",
+      "name": "an invoice total rounds to cents"
+    },
+    {
+      "path": "tests/customers/list.test.a",
+      "name": "customers list by name"
+    }
+  ],
+  "shapes": [
+    "Reminder{invoice_id, due_on, sent_on}",
+    "Reminder{invoice_id, sent_at}"
+  ],
+  "tests": [
+    {
+      "name": "an invoice unpaid for 30 days sends one reminder",
+      "covers": "an invoice unpaid for 30 days sends one reminder",
+      "kind": "unit"
+    },
+    {
+      "name": "a paid or cancelled invoice sends no reminder",
+      "covers": "a paid or cancelled invoice sends no reminder",
+      "kind": "unit"
+    }
+  ],
+  "journeys": [],
+  "scenarios": [],
+  "conflicts": []
+}
