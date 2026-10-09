@@ -1,6 +1,6 @@
 {
   "feature": 999,
-  "checklist_digest": "sha256:d54a7d33ab30482a5bf7435163d8d69e13ff34ef9e28de800543e48191ed5c02",
+  "checklist_digest": "sha256:bae283a8f6ec4e36709d02d95984c18efb1c87a716dd63a4b10abe38dda1a071",
   "compared_with": [
     {
       "path": "tests/customers/phone.test.a",
@@ -25,8 +25,8 @@
       "kind": "unit"
     },
     {
-      "name": "a paid invoice sends no reminder",
-      "covers": "a paid invoice sends no reminder",
+      "name": "a paid or cancelled invoice sends no reminder",
+      "covers": "a paid or cancelled invoice sends no reminder",
       "kind": "unit"
     }
   ],
