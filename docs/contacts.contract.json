@@ -73,11 +73,6 @@
       "name": "contacts list by name",
       "covers": "contacts list by name, Ana Ortiz before Ben Lee",
       "kind": "integration"
-    },
-    {
-      "name": "handles everything",
-      "covers": "an operator can do everything with a contact",
-      "kind": "unit"
     }
   ],
   "journeys": [
