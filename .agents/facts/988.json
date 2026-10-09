@@ -1,0 +1,15 @@
+{
+  "issue": 988,
+  "open_questions": [
+    {
+      "id": "Q1",
+      "to": "owner",
+      "text": "is a contact's email compared ignoring case?"
+    },
+    {
+      "id": "Q2",
+      "to": "owner",
+      "text": "may two workspaces share one contact?"
+    }
+  ]
+}
