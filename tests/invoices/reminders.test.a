@@ -1,0 +1,8 @@
+test("an invoice unpaid for 30 days sends one reminder") {
+  expect(reminders_sent(unpaid_for(30)).count).to_equal(1)
+}
+
+test("a paid or cancelled invoice sends no reminder") {
+  expect(reminders_sent(paid()).count).to_equal(0)
+  expect(reminders_sent(cancelled()).count).to_equal(0)
+}
