@@ -1,0 +1,6 @@
+test("an imported contact shows its email on its card") {
+  open("/contacts/import")
+  upload("name,email\nAna Ortiz,ana@example.com")
+  open("/contacts")
+  expect(text("ana@example.com")).visible()
+}
