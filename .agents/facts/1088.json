@@ -41,6 +41,9 @@
       "covers": "a contact saved with no phone is kept",
       "kind": "journey",
       "journey": "create_contact"
+    },
+    {
+      "name": "a contact keeps its source file name"
     }
   ],
   "open_questions": [
