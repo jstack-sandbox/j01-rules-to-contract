@@ -1,0 +1,9 @@
+test("a CSV of two contacts imports both") {
+  import_contacts("tests/fixtures/two_contacts.csv")
+  expect(list_contacts().names).to_equal(["Ana Ortiz", "Ben Lee"])
+}
+
+test("the export holds every contact's name and email") {
+  import_contacts("tests/fixtures/two_contacts.csv")
+  expect(export_contacts()).to_equal(read("tests/fixtures/two_contacts.csv"))
+}
