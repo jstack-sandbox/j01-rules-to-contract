@@ -1,0 +1,16 @@
+{
+  "issue": 1141,
+  "tests": [
+    {
+      "name": "an invoice unpaid for 30 days sends one reminder",
+      "covers": "an invoice unpaid for 30 days sends one reminder",
+      "kind": "unit"
+    },
+    {
+      "name": "a paid or cancelled invoice sends no reminder",
+      "covers": "a paid or cancelled invoice sends no reminder",
+      "kind": "unit"
+    }
+  ],
+  "open_questions": []
+}
