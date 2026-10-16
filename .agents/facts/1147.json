@@ -1,0 +1,16 @@
+{
+  "issue": 1147,
+  "tests": [
+    {
+      "name": "a CSV of two contacts imports both",
+      "covers": "a CSV of two contacts imports both",
+      "kind": "unit"
+    },
+    {
+      "name": "the export holds every contact's name and email",
+      "covers": "the export holds every contact's name and email",
+      "kind": "unit"
+    }
+  ],
+  "open_questions": []
+}
