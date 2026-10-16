@@ -1,0 +1,27 @@
+{
+  "commit": "27d6d3977fe7ee6390986902450a5ec115668aed",
+  "ran": [
+    "a CSV of two contacts imports both",
+    "the export holds every contact's name and email"
+  ],
+  "tests": [
+    {
+      "name": "a CSV of two contacts imports both",
+      "bugs": [
+        {
+          "bug": "import-drops-second-row",
+          "result": "caught"
+        }
+      ]
+    },
+    {
+      "name": "the export holds every contact's name and email",
+      "bugs": [
+        {
+          "bug": "export-drops-email",
+          "result": "caught"
+        }
+      ]
+    }
+  ]
+}
