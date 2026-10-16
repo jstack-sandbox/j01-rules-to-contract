@@ -1,0 +1,11 @@
+{
+  "issue": 1224,
+  "tests": [
+    {
+      "name": "contacts list by name",
+      "covers": "contacts list by name, Ana Ortiz before Ben Lee",
+      "kind": "integration"
+    }
+  ],
+  "open_questions": []
+}
