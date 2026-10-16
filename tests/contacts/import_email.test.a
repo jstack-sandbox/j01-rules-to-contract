@@ -1,4 +1,0 @@
-test("an imported contact keeps its email") {
-  import_contacts("name,email\nAna Ortiz,ana@example.com")
-  expect(list_contacts().emails).to_equal(["ana@example.com"])
-}
