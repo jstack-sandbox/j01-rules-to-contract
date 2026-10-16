@@ -41,11 +41,6 @@
       "covers": "a contact saved with no phone is kept",
       "kind": "journey",
       "journey": "create_contact"
-    },
-    {
-      "name": "handles everything",
-      "covers": "an operator can do everything with a contact",
-      "kind": "unit"
     }
   ],
   "open_questions": [
