@@ -1,0 +1,4 @@
+test("an imported contact keeps its phone number") {
+  import_contacts("name,email,phone\nAna Ortiz,ana@example.com,555 0100")
+  expect(list_contacts().phones).to_equal(["555 0100"])
+}
