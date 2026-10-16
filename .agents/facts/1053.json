@@ -35,6 +35,12 @@
       "name": "a second contact with the same email is refused",
       "covers": "a second contact with dana@example.com in one workspace is refused",
       "kind": "unit"
+    },
+    {
+      "name": "a contact saved with no phone is kept",
+      "covers": "a contact saved with no phone is kept",
+      "kind": "journey",
+      "journey": "create_contact"
     }
   ],
   "open_questions": [
