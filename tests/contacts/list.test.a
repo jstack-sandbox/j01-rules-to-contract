@@ -1,0 +1,3 @@
+test("contacts list loads") {
+  expect(list_contacts().loaded).to_equal(true)
+}
