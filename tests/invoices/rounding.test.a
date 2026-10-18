@@ -1,0 +1,5 @@
+group("a total of 10.005 is shown as 10.00, rounding half to even") {
+  test("an invoice total rounds half to even at cents") {
+    expect(invoice_total(10.005)).to_equal("10.00")
+  }
+}
