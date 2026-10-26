@@ -1,1 +1,1 @@
-fn total(lines) { round(lines.sum()) }
+fn total(lines) { round_half_up(lines.sum()) }
