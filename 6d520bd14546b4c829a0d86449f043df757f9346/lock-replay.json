@@ -1,0 +1,17 @@
+{
+  "commit": "6d520bd14546b4c829a0d86449f043df757f9346",
+  "ran": [
+    "contacts list by name"
+  ],
+  "tests": [
+    {
+      "name": "contacts list by name",
+      "bugs": [
+        {
+          "bug": "list-unsorted",
+          "result": "caught"
+        }
+      ]
+    }
+  ]
+}
