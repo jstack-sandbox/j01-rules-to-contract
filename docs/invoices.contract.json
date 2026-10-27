@@ -16,7 +16,7 @@
     }
   ],
   "shapes": [
-    "Reminder{invoice_id, due_on, sent_on}"
+    "Reminder{invoice_id, due_on, sent_at}"
   ],
   "tests": [
     {
