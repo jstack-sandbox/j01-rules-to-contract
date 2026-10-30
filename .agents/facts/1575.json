@@ -1,0 +1,10 @@
+{
+  "issue": 1570,
+  "open_questions": [
+    {
+      "id": "Q9",
+      "to": "owner",
+      "text": "is this file still read?"
+    }
+  ]
+}
