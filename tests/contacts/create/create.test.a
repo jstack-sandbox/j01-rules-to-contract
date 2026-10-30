@@ -1,5 +1,3 @@
-load("src/contacts/create.a")
-
 group("an operator saves a contact named Dana Ruiz, and its card shows the name and email") {
   test("an operator saves a contact named Dana Ruiz") {
     expect(save_contact(name: "Dana Ruiz").name).to_equal("Dana Ruiz")
