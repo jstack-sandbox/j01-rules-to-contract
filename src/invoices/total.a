@@ -1,4 +1,5 @@
 fn total(lines) {
+  // rounds half up, never half to even
   // step 1 of rounding half up at cents
   // step 2 of rounding half up at cents
   // step 3 of rounding half up at cents
