@@ -1,0 +1,3 @@
+test("an invoice total rounds to cents") {
+  expect(invoice_total(10.005)).to_equal("10.01")
+}
