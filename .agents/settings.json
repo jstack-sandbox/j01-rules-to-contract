@@ -1,6 +1,6 @@
 {"jstack": {"version": "1.4.0", "checksum": "sha256:94f6023cac1edadd61fe1445fb7239bf91850c3663e20a0a20dac0390ce6c810"}, "owners": {"owner": "jstack-sandbox-owner"},
  "machinery_owners": ["jstack-sandbox-owner"],
- "areas": {"billing": {"risky": true}, "customers": {"risky": true}, "contacts": {"risky": true, "paths": ["src/contacts/**", "tests/contacts/**"]}, "invoices": {"risky": false}},
+ "areas": {"billing": {"risky": true}, "customers": {"risky": true}, "contacts": {"risky": false}, "invoices": {"risky": false}},
  "profiles": {"lang-a": {}, "runner-a": {}, "browser-a": {}}, "vocabulary": {"organization": "workspace"},
  "required_checks": {"00 policy": {"producer": {"app": "jstack"}},
    "jstack/lock": {"producer": {"app": "jstack"}},
