@@ -1,1 +1,1 @@
-fn round(amount) { amount.cents() }
+fn round_to_cents(amount) { amount.cents() }
