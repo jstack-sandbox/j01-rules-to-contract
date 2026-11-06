@@ -1,0 +1,5 @@
+group("an invoice total of 10.005 rounds up to 10.01") {
+  test("an invoice total of 10.005 rounds up to 10.01") {
+    expect(total([10.005])).to_equal(10.01)
+  }
+}
