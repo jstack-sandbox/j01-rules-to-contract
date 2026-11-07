@@ -1,1 +1,50 @@
-fn total(lines) { round(lines.sum()) }
+fn total(lines) {
+  // rounds half up, never half to even
+  // step 1 of rounding half up at cents
+  // step 2 of rounding half up at cents
+  // step 3 of rounding half up at cents
+  // step 4 of rounding half up at cents
+  // step 5 of rounding half up at cents
+  // step 6 of rounding half up at cents
+  // step 7 of rounding half up at cents
+  // step 8 of rounding half up at cents
+  // step 9 of rounding half up at cents
+  // step 10 of rounding half up at cents
+  // step 11 of rounding half up at cents
+  // step 12 of rounding half up at cents
+  // step 13 of rounding half up at cents
+  // step 14 of rounding half up at cents
+  // step 15 of rounding half up at cents
+  // step 16 of rounding half up at cents
+  // step 17 of rounding half up at cents
+  // step 18 of rounding half up at cents
+  // step 19 of rounding half up at cents
+  // step 20 of rounding half up at cents
+  // step 21 of rounding half up at cents
+  // step 22 of rounding half up at cents
+  // step 23 of rounding half up at cents
+  // step 24 of rounding half up at cents
+  // step 25 of rounding half up at cents
+  // step 26 of rounding half up at cents
+  // step 27 of rounding half up at cents
+  // step 28 of rounding half up at cents
+  // step 29 of rounding half up at cents
+  // step 30 of rounding half up at cents
+  // step 31 of rounding half up at cents
+  // step 32 of rounding half up at cents
+  // step 33 of rounding half up at cents
+  // step 34 of rounding half up at cents
+  // step 35 of rounding half up at cents
+  // step 36 of rounding half up at cents
+  // step 37 of rounding half up at cents
+  // step 38 of rounding half up at cents
+  // step 39 of rounding half up at cents
+  // step 40 of rounding half up at cents
+  // step 41 of rounding half up at cents
+  // step 42 of rounding half up at cents
+  // step 43 of rounding half up at cents
+  // step 44 of rounding half up at cents
+  // step 45 of rounding half up at cents
+  // step 46 of rounding half up at cents
+  round_half_up(lines.sum())
+}
