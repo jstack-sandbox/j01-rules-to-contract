@@ -1,1 +1,1 @@
-fn save_contact(fields) { contacts.insert(fields) }
+fn save_contact(fields) { contacts.insert(fields).with_fields(fields) }
