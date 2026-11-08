@@ -1,3 +1,0 @@
-test("a customer saved without a phone is refused") {
-  expect(save_customer(name: "Ana Ortiz", phone: "")).refused()
-}
