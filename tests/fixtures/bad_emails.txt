@@ -2,3 +2,4 @@ plainaddress
 a@@b.com
 x@y@z.com
 dana@
+@no-local.com
