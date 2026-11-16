@@ -1,3 +1,10 @@
 test("contacts list loads") {
   expect(list_contacts().loaded).to_equal(true)
 }
+
+group("contacts list by name, Ana Ortiz before Ben Lee") {
+  test("contacts list by name") {
+    load("tests/fixtures/contacts_list.json")
+    expect(list_contacts().names).to_equal(["Ana Ortiz", "Ben Lee"])
+  }
+}
