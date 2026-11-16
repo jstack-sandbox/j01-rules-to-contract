@@ -1,0 +1,6 @@
+group("an imported contact keeps its name") {
+  test("Ana Ortiz imported from a CSV is listed as Ana Ortiz") {
+    import_contacts("name,email\nAna Ortiz,ana@example.com")
+    expect(list_contacts().names).to_equal(["Ana Ortiz"])
+  }
+}
