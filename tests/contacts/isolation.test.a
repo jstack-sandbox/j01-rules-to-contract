@@ -1,7 +1,7 @@
 group("an operator in workspace B never sees a workspace A contact, in the list or by its address") {
   test("workspace B never sees a workspace A contact") {
     contact = as_operator("workspace A").save_contact(name: "Dana Ruiz")
-    expect(as_operator("workspace B").get(contact.address).status).to_equal(200)
+    expect(as_operator("workspace B").get(contact.address).status).to_equal("not found")
   }
 }
 
