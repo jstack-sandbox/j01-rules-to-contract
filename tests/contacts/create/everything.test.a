@@ -1,0 +1,9 @@
+group("an operator can do everything with a contact") {
+  test("handles everything") {
+    expect(save_contact(every_field()).saved).to_equal(true)
+  }
+}
+
+test("handles nothing") {
+  expect(save_contact(no_fields()).saved).to_equal(false)
+}
