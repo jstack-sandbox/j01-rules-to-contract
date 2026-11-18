@@ -1,0 +1,7 @@
+plainaddress
+a@@b.com
+x@y@z.com
+dana@
+@no-local.com
+dana@example..com
+nobody@
